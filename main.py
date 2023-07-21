@@ -539,6 +539,5 @@ def GenerateMealRecommendation():
         string += "\n"
     return f" Recommendation : {random.choice(menuItems)} "
 
-
 if __name__ == '__main__':
     NavigateMenu()
